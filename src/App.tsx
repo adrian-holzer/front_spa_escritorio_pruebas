@@ -21,9 +21,7 @@ const App = () => {
             <li>
               <Link to="/procesar-pago">Realizar Pago (Para el cliente)</Link>
             </li>
-            <li>
-              <Link to="/enviar-factura">Enviar Factura (Para el cliente)</Link>
-            </li>
+           
           </ul>
         </nav>
 
@@ -31,7 +29,6 @@ const App = () => {
           <Route path="/crear-horario" element={<CrearHorario />} />
           <Route path="/seleccionar-turno" element={<SeleccionarTurno />} />
           <Route path="/procesar-pago" element={<ProcesarPago />} />
-          <Route path="/enviar-factura" element={<EnviarFactura />} />
         </Routes>
       </div>
     </Router>
